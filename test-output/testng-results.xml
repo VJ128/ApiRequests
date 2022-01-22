@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="17" passed="15" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-27T15:44:58 PST" name="Default suite" finished-at="2021-12-27T15:44:59 PST" duration-ms="1235">
+  <suite started-at="2022-01-20T08:19:46 PST" name="Default suite" finished-at="2022-01-20T08:19:48 PST" duration-ms="1779">
     <groups>
     </groups>
-    <test started-at="2021-12-27T15:44:58 PST" name="Default test" finished-at="2021-12-27T15:44:59 PST" duration-ms="1235">
+    <test started-at="2022-01-20T08:19:46 PST" name="Default test" finished-at="2022-01-20T08:19:48 PST" duration-ms="1779">
       <class name="com.qa.Testcases.GET">
-        <test-method is-config="true" signature="getapirequest()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:58 PST" name="getapirequest" finished-at="2021-12-27T15:44:58 PST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="getapirequest()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:46 PST" name="getapirequest" finished-at="2022-01-20T08:19:47 PST" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getapirequest -->
-        <test-method signature="arraysizevalidation()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:58 PST" name="arraysizevalidation" finished-at="2021-12-27T15:44:58 PST" duration-ms="13" status="PASS">
+        <test-method signature="arraysizevalidation()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="arraysizevalidation" finished-at="2022-01-20T08:19:47 PST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- arraysizevalidation -->
-        <test-method signature="getheader(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getheader" data-provider="DP4" finished-at="2021-12-27T15:44:59 PST" duration-ms="2" status="PASS">
+        <test-method signature="getheader(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getheader" data-provider="DP4" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getheader -->
-        <test-method signature="getstatuscode()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getstatuscode" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="getstatuscode()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getstatuscode" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getstatuscode -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="2" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="2" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,7 +154,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="2" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -185,7 +185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="getuserdetails" data-provider="DP1" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="getuserdetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="getuserdetails" data-provider="DP1" finished-at="2022-01-20T08:19:47 PST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,11 +216,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getuserdetails -->
-        <test-method signature="nonuserstatuscode()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="nonuserstatuscode" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="nonuserstatuscode()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="nonuserstatuscode" finished-at="2022-01-20T08:19:47 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonuserstatuscode -->
-        <test-method signature="nonusertesting(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="nonusertesting" data-provider="DP3" finished-at="2021-12-27T15:44:59 PST" duration-ms="71" status="FAIL">
+        <test-method signature="nonusertesting(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="nonusertesting" data-provider="DP3" finished-at="2022-01-20T08:19:47 PST" duration-ms="433" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.qa.Testcases.GET.nonusertesting(GET.java:125)
+at com.qa.Testcases.GET.nonusertesting(GET.java:126)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,7 +275,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonusertesting -->
-        <test-method signature="nonusertesting(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="nonusertesting" data-provider="DP3" finished-at="2021-12-27T15:44:59 PST" duration-ms="407" status="FAIL">
+        <test-method signature="nonusertesting(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:47 PST" name="nonusertesting" data-provider="DP3" finished-at="2022-01-20T08:19:48 PST" duration-ms="404" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at com.qa.Testcases.GET.nonusertesting(GET.java:125)
+at com.qa.Testcases.GET.nonusertesting(GET.java:126)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -330,15 +330,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonusertesting -->
-        <test-method signature="pagevalidation()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="pagevalidation" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="pagevalidation()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:48 PST" name="pagevalidation" finished-at="2022-01-20T08:19:48 PST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagevalidation -->
-        <test-method signature="per_pagevalidation()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="per_pagevalidation" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="per_pagevalidation()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:48 PST" name="per_pagevalidation" finished-at="2022-01-20T08:19:48 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- per_pagevalidation -->
-        <test-method signature="respphrasevalidation(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="respphrasevalidation" data-provider="DP2" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="respphrasevalidation(java.lang.String)[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:48 PST" name="respphrasevalidation" data-provider="DP2" finished-at="2022-01-20T08:19:48 PST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,11 +349,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- respphrasevalidation -->
-        <test-method signature="total_pagesvalidation()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="total_pagesvalidation" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="total_pagesvalidation()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:48 PST" name="total_pagesvalidation" finished-at="2022-01-20T08:19:48 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- total_pagesvalidation -->
-        <test-method signature="totalvalidation()[pri:0, instance:com.qa.Testcases.GET@483f6d77]" started-at="2021-12-27T15:44:59 PST" name="totalvalidation" finished-at="2021-12-27T15:44:59 PST" duration-ms="1" status="PASS">
+        <test-method signature="totalvalidation()[pri:0, instance:com.qa.Testcases.GET@3e84448c]" started-at="2022-01-20T08:19:48 PST" name="totalvalidation" finished-at="2022-01-20T08:19:48 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- totalvalidation -->

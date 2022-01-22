@@ -53,8 +53,9 @@ public class GET extends TestBase
     @DataProvider(name="DP1")
     public Object[][] createData1() throws Exception
     {
-     Object[][] retObjArr=getTableArray("C:\\Users\\vedas\\eclipse-workspace\\APIrequests\\src\\test\\resources\\data.xls","DataPool", "userdetails");
+     Object[][] retObjArr=getTableArray("C:\\Users\\vedas\\eclipse-workspace\\PracticeAPI\\src\\test\\resources\\data.xls","DataPool", "userdetails");
      return(retObjArr);
+     //Datapool is the sheet name
     }
     
 	/*
@@ -72,7 +73,7 @@ public class GET extends TestBase
 	 * Assert.assertEquals(avatar, avatar1); i++; }
 	 */
 
-    //User details validation
+    //User details validation testing
     @Test(dataProvider="DP1")
     public void getuserdetails(String id1,String firstname1,String lastname1,String email1,String avatar1)
     {

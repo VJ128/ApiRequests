@@ -53,7 +53,6 @@ System.out.println("Exception occured while converting json to Java "+ e.getMess
 		}
 		return size;
 	}
-
 	public Object getobjectvalue1(String response, String field,String subfield) {
 		JSONObject jobject = new JSONObject(response);
 		jobject=(JSONObject) jobject.get(field);
@@ -69,7 +68,7 @@ System.out.println("Exception occured while converting json to Java "+ e.getMess
 
 	public int getobjectvalue(String response, String field) { // Get JSON Objects' values
 		jobject = new JSONObject(response);
-		Integer result1 = (Integer) jobject.get(field);
+		int result1=jobject.getInt(field);
 		return result1;
 	}
 
@@ -89,7 +88,6 @@ System.out.println("Exception occured while converting json to Java "+ e.getMess
 		}
 		return false;
 	}
-
 }
 
 //{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}]
